@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: #e08fc5;
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 50px;
+}
+
+button{
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #a2e9ee;
+  box-shadow: 2px 2px #A9A9A9;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 55px;
+  background-color: #94e7e7;
+  width: 100vw;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px #fa0000;
+}
+
+.lado, .lado2{
+  height: 30vh;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+img{
+  margin-right: 50px;
+  border-radius: 50%;
+  border: 5px inset #131212;
+}
+
+h3{
+  margin-left: -2vw;
+  margin-right: 2vw;
+}
+button :hover{
+  background-color: aqua;
+  border-radius: 20px;
+  
+}
